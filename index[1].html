@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kumaresan G | Python & Backend Developer</title>
+  <meta name="description" content="Portfolio of Kumaresan G, a Computer Science graduate building Python, REST API, MySQL and machine learning projects. Open to entry-level Python and Backend Developer roles.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="nav" id="nav">
+    <div class="wrap nav-in">
+      <a href="#home" class="logo" aria-label="Kumaresan G, home">KG</a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+      <nav id="menu" class="menu" aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ===== HERO ===== -->
+    <section id="home" class="hero">
+      <div class="wrap hero-in">
+        <div class="hero-text">
+          <p class="hello">Hi, I'm</p>
+          <h1>Kumaresan G</h1>
+          <p class="role">Python Developer &amp; Backend Developer</p>
+          <p class="intro">Computer Science graduate who builds data pipelines, REST APIs and machine learning models with Python and MySQL. I'm looking for an entry-level role where I can ship backend features and keep learning.</p>
+          <div class="btns">
+            <a href="#projects" class="btn primary">View My Work</a>
+            <a href="#contact" class="btn ghost">Contact Me</a>
+          </div>
+          <div class="social">
+            <a href="https://github.com/kumaresan-g" target="_blank" rel="noopener">GitHub</a>
+            <!-- TODO: replace with your real LinkedIn URL -->
+            <a href="#contact" title="Add your LinkedIn URL in index.html">[Add LinkedIn URL]</a>
+          </div>
+        </div>
+
+        <!-- Pipeline card: summarises what my projects actually do -->
+        <div class="pipe" aria-hidden="true">
+          <div class="pipe-bar"><i></i><i></i><i></i><span>pipeline.py</span></div>
+          <ol>
+            <li><b>Extract</b> live sensor data</li>
+            <li><b>Transform</b> with Pandas &amp; NumPy</li>
+            <li><b>Load</b> into MySQL</li>
+            <li><b>Serve</b> through a REST API</li>
+            <li><b>Predict</b> with scikit-learn</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="sec">
+      <div class="wrap about">
+        <div class="photo" role="img" aria-label="Profile photo placeholder">
+          <!-- To add your photo: replace this div with <img src="images/profile.jpg" alt="Kumaresan G"> -->
+          <span>[Add Profile Photo]</span>
+        </div>
+        <div class="reveal">
+          <h2>About me</h2>
+          <p>I'm a BE Computer Science Engineering graduate (CGPA 7.9/10) with hands-on experience in Python development, REST APIs and machine learning pipelines.</p>
+          <p>I delivered two end-to-end projects covering ETL, SQL and predictive modeling, one of them as part of a 4-member Agile team using Git and GitHub.</p>
+          <p>Outside code, I enjoy photography, cricket and music.</p>
+          <dl class="facts">
+            <div><dt>Location</dt><dd>Kumbakonam, Tamil Nadu</dd></div>
+            <div><dt>Looking for</dt><dd>Python / Backend Developer</dd></div>
+            <div><dt>Email</dt><dd><a href="mailto:kumaresanganesamoorthy16@gmail.com">kumaresanganesamoorthy16@gmail.com</a></dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section id="education" class="sec alt">
+      <div class="wrap">
+        <h2 class="reveal">Education</h2>
+        <div class="timeline">
+          <article class="tl reveal">
+            <time>2022 – 2026</time>
+            <h3>BE, Computer Science Engineering</h3>
+            <p>KSK College of Engineering and Technology, Kumbakonam</p>
+            <span class="tag">CGPA 7.9 / 10</span>
+          </article>
+          <article class="tl reveal">
+            <time>2022</time>
+            <h3>HSC, Higher Secondary Certificate (Science)</h3>
+            <p>Little Flower Higher Secondary School, Kumbakonam</p>
+            <span class="tag">76%</span>
+          </article>
+          <article class="tl reveal">
+            <time>2020</time>
+            <h3>SSLC, Secondary School Leaving Certificate</h3>
+            <p>Little Flower Higher Secondary School, Kumbakonam</p>
+            <span class="tag">71%</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS (only skills listed on the resume) ===== -->
+    <section id="skills" class="sec">
+      <div class="wrap">
+        <h2 class="reveal">Technical skills</h2>
+        <div class="grid skills">
+          <article class="card reveal"><h3>Programming Languages</h3><div class="chips"><span>Python</span></div></article>
+          <article class="card reveal"><h3>Databases</h3><div class="chips"><span>MySQL</span><span>SQL queries</span></div></article>
+          <article class="card reveal"><h3>Backend</h3><div class="chips"><span>REST API</span><span>ETL pipelines</span></div></article>
+          <article class="card reveal"><h3>Libraries &amp; ML</h3><div class="chips"><span>Scikit-learn</span><span>Pandas</span><span>NumPy</span><span>Machine Learning</span></div></article>
+          <article class="card reveal"><h3>Tools &amp; Practices</h3><div class="chips"><span>Git</span><span>GitHub</span><span>Agile teamwork</span></div></article>
+        </div>
+        <p class="note reveal">Frontend technologies are not listed on my resume yet, so that category is left out on purpose.</p>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section id="experience" class="sec alt">
+      <div class="wrap">
+        <h2 class="reveal">Experience</h2>
+        <div class="timeline">
+          <article class="tl reveal">
+            <time>2024 – 2025</time>
+            <h3>Agile project team member</h3>
+            <p>AI-Based Traffic Congestion Monitoring System, 4-member team</p>
+            <ul>
+              <li>Built ETL pipelines that process live sensor data to detect congestion.</li>
+              <li>Designed optimized SQL queries in MySQL.</li>
+              <li>Collaborated with teammates through Git and GitHub.</li>
+            </ul>
+          </article>
+        </div>
+        <p class="note reveal">I haven't done a formal internship yet. This section will grow as I do. <!-- Add internships here as new .tl articles --></p>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="sec">
+      <div class="wrap">
+        <h2 class="reveal">Featured projects</h2>
+        <div class="grid projects">
+          <article class="card proj reveal">
+            <time>2024 – 2025</time>
+            <h3>AI-Based Traffic Congestion Monitoring System</h3>
+            <p>A real-time monitoring system that detects traffic congestion from live sensor data.</p>
+            <ul>
+              <li>ETL pipelines process live sensor data to detect congestion.</li>
+              <li>Optimized SQL queries in MySQL.</li>
+              <li>Built with a 4-member Agile team on Git/GitHub.</li>
+            </ul>
+            <div class="chips"><span>Python</span><span>ETL</span><span>MySQL</span><span>REST API</span></div>
+            <div class="links">
+              <!-- TODO: replace with the exact repo URL and live demo URL -->
+              <a href="https://github.com/kumaresan-g" target="_blank" rel="noopener">GitHub profile</a>
+              <span class="ph">[Add live demo URL]</span>
+            </div>
+          </article>
+          <article class="card proj reveal">
+            <time>2025</time>
+            <h3>House Price Prediction Using Machine Learning</h3>
+            <p>A regression pipeline that predicts house prices from location, area and amenity features.</p>
+            <ul>
+              <li>Trained and benchmarked Linear Regression and Random Forest models.</li>
+              <li>Compared RMSE and R² to select the best fit.</li>
+            </ul>
+            <div class="chips"><span>Python</span><span>Scikit-learn</span><span>Pandas</span><span>NumPy</span></div>
+            <div class="links">
+              <a href="https://github.com/kumaresan-g" target="_blank" rel="noopener">GitHub profile</a>
+              <span class="ph">[Add live demo URL]</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CERTIFICATIONS ===== -->
+    <section id="certifications" class="sec alt">
+      <div class="wrap">
+        <h2 class="reveal">Certifications and achievements</h2>
+        <div class="grid">
+          <article class="card reveal">
+            <h3>Machine Learning using Python</h3>
+            <p>NPTEL / Coursera, 2024</p>
+          </article>
+          <article class="card reveal">
+            <h3>Delivered 2 end-to-end projects</h3>
+            <p>Covering ETL, SQL and predictive modeling.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="sec">
+      <div class="wrap contact">
+        <div class="reveal">
+          <h2>Let's talk</h2>
+          <p>I'm open to entry-level Python and Backend Developer roles. Send a message or reach me directly.</p>
+          <ul class="direct">
+            <li><a href="mailto:kumaresanganesamoorthy16@gmail.com">kumaresanganesamoorthy16@gmail.com</a></li>
+            <li><a href="tel:+918072393180">+91 80723 93180</a></li>
+            <li>Kumbakonam, Tamil Nadu</li>
+          </ul>
+        </div>
+        <form id="form" class="form reveal" novalidate>
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required>
+          <small class="err" id="e-name"></small>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+          <small class="err" id="e-email"></small>
+          <label for="subject">Subject</label>
+          <input id="subject" name="subject" type="text" required>
+          <small class="err" id="e-subject"></small>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <small class="err" id="e-message"></small>
+          <button class="btn primary" type="submit">Send message</button>
+          <p class="status" id="status" role="status" aria-live="polite"></p>
+          <p class="note">This form only checks your input in the browser. Sending real email needs a backend or a form service such as Formspree or Netlify Forms.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="wrap">
+      <p>&copy; <span id="year">2026</span> Kumaresan G. Built with HTML, CSS and JavaScript.</p>
+      <a href="https://github.com/kumaresan-g" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </footer>
+
+  <button id="top" class="top" aria-label="Back to top">&#8593;</button>
+  <script src="script.js"></script>
+</body>
+</html>
